@@ -24,6 +24,12 @@ var swiper = new Swiper(".mySwiper", {
         });
     });
 });
+document.getElementById('resumeButton').addEventListener('click', function () {
+  
+  const pdfPath = 'ananya-maity_resume.pdf'; 
+  window.location.href = pdfPath;
+});
+
 
 
 
