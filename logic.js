@@ -26,7 +26,7 @@ var swiper = new Swiper(".mySwiper", {
 });
 document.getElementById('resumeButton').addEventListener('click', function () {
   
-  const pdfPath = 'ananya-maity_resume.pdf'; 
+  const pdfPath = 'ananya-maity_resume2.pdf'; 
   window.location.href = pdfPath;
 });
 
