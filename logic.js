@@ -27,7 +27,8 @@ var swiper = new Swiper(".mySwiper", {
 document.getElementById('resumeButton').addEventListener('click', function () {
   
   const pdfPath = 'Ananya-Maity-Resume-2026.pdf'; 
-  window.location.href = pdfPath;
+  // window.location.href = pdfPath;
+  window.open(pdfPath, '_blank');
 });
 
 
